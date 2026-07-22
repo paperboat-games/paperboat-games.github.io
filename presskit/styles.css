@@ -671,6 +671,8 @@ html:not(.i18n-ready)[data-language="ko-KR"] [data-lang="ko-KR"] {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: left center;
+  transform-origin: left center;
   transition: transform 300ms ease, opacity 300ms ease;
 }
 
