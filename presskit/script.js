@@ -5,6 +5,7 @@
   const galleryItems = [...document.querySelectorAll("[data-gallery-item]")];
   const gameplayItems = [...document.querySelectorAll("[data-gameplay-item]")];
   const allGalleryItems = [...galleryItems, ...gameplayItems];
+  const clipCards = [...document.querySelectorAll("[data-clip-card]")];
   const localizedElements = [...document.querySelectorAll("[data-lang]")];
   const translatedElements = [...document.querySelectorAll("[data-i18n]")];
   const trailerLinks = [...document.querySelectorAll("[data-trailer-link]")];
@@ -145,6 +146,18 @@
     if (languageSelect) languageSelect.setAttribute("aria-label", ui.language);
     if (lightbox) lightbox.setAttribute("aria-label", ui.lightbox);
     if (lightboxClose) lightboxClose.setAttribute("aria-label", ui.lightboxClose);
+
+    clipCards.forEach((card) => {
+      const titleKey = card.dataset.clipTitle;
+      const title = bundle.strings?.[titleKey] ?? fallback.strings?.[titleKey] ?? "";
+      const number = card.dataset.clipNumber || "";
+      const suffix = bundle.strings?.clip_thumbnail_suffix ?? fallback.strings?.clip_thumbnail_suffix ?? "";
+      const download = bundle.strings?.clip_download ?? fallback.strings?.clip_download ?? "";
+      const image = card.querySelector("img");
+      const label = `${title} ${number}`.trim();
+      if (image) image.alt = `${label} ${suffix}`.trim();
+      card.setAttribute("aria-label", `${label} — ${download}`);
+    });
   }
 
   function updateGallery(locale) {
