@@ -77,6 +77,8 @@
   }
 
   function galleryAlt(item, locale) {
+    if (locale === "ko-KR" && item.dataset.altKo) return item.dataset.altKo;
+    if (locale === "en-US" && item.dataset.altEn) return item.dataset.altEn;
     const info = localeInfo[locale];
     return `${info.title} ${info.screenshot} ${Number(galleryNumber(item))}`;
   }
@@ -270,7 +272,8 @@
   });
   lightbox?.addEventListener("close", () => {
     currentGalleryItem = null;
-    if (lightboxImage) lightboxImage.src = "";
+    lightboxImage?.removeAttribute("src");
+    lightboxDownload?.removeAttribute("href");
   });
 
   let initialLocale = (navigator.languages || [navigator.language])

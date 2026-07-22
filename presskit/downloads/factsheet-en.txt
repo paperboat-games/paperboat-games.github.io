@@ -9,14 +9,14 @@ Price: Free to play (optional IAP and opt-in rewarded ads; no forced ads)
 Languages: Korean, English, Japanese, Traditional Chinese, German, French and Brazilian Portuguese
 
 One-line description
-A side-scrolling flying action game built around Near Miss Combos, automatic Invincible Dash and stage boss battles.
+A side-scrolling flying action game built around Near Miss Combos, full-gauge Invincible Dash and stage boss battles.
 
 About the game
-Hero Wing is a mobile action game about managing speed, avoiding obstacles and flying as far as possible while health constantly drains. Passing close without contact triggers a Near Miss and builds combo and score bonuses. Dash and Near Misses fill a gauge that automatically activates Invincible Dash for a few seconds, while stage bosses add a new rhythm to each flight.
+Hero Wing is a mobile action game about managing speed, avoiding obstacles and flying as far as possible while health constantly drains. Passing close without contact triggers a Near Miss and builds combo and score bonuses. Your Dashes and Near Misses fill the gauge, unleashing Invincible Dash for a few seconds at full charge, while stage bosses add a new rhythm to each flight.
 
 Key features
 - 12 playable characters and pet progression
-- Near Miss Combos, Dash and automatic Invincible Dash
+- Near Miss Combos, Dash and Invincible Dash
 - Stage boss battles
 - Google Play achievements and cloud save
 - Core stages support offline play
