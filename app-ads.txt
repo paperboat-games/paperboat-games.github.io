@@ -139,7 +139,7 @@ contextweb.com, 558622, RESELLER, 89ff185a4c4e857c
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
 ogury.com, 065d4ff5-a269-44be-9634-9d4d7af2dfc3, RESELLER
 undertone.com, 4108, RESELLER
-Media.net, 8CUH46N56, RESELLER
+media.net, 8cuh46n56, RESELLER
 lacunads.com, lcb555b3bc8667a09a, RESELLER
 smartadserver.com, 5294, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4456, RESELLER
@@ -279,7 +279,7 @@ openx.com, 561446248, RESELLER, 6a698e2ec38604c6
 bluexad.ai, 1996418805747683328, RESELLER
 e-planning.net, 6a7f877127485fdb, RESELLER, c1ba615865ed87b2
 insticator.com, cadff748-965f-4393-a76e-a8f902512bad, RESELLER, b3511ffcafb23a32
-media.net, 8CU675N41, RESELLER
+media.net, 8cu675n41, RESELLER
 odeeo.io, 118848844, RESELLER, 36cfd73091d5c3fc
 openx.com, 563905670, RESELLER, 6a698e2ec38604c6
 pubmatic.com, 165329, RESELLER, 5d62403b186f2ace
