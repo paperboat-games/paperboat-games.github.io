@@ -88,8 +88,8 @@
     return String(gameplayItems.indexOf(item) + 1).padStart(2, "0");
   }
 
-  function gameplaySource(item, locale) {
-    return locale === "ko-KR" ? item.dataset.srcKo || "" : item.dataset.srcEn || "";
+  function gameplaySource(item) {
+    return item.dataset.srcEn || "";
   }
 
   function gameplayAlt(item, locale) {
@@ -208,7 +208,7 @@
       localePackType.textContent = `ZIP · ${locale.toUpperCase()}`;
     }
 
-    const gameplayLocale = locale === "ko-KR" ? "ko" : "en";
+    const gameplayLocale = "en";
     if (gameplayPack) {
       gameplayPack.href = `downloads/hero-wing-gameplay-screenshots-${gameplayLocale}.zip`;
     }
